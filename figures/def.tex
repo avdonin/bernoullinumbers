@@ -1,0 +1,11 @@
+\documentclass{standalone}
+\usepackage{amsmath}
+\newcommand{\diff}{\mathop{}\!d}
+\renewenvironment{gather*}{$\gathered}{\endgathered$}
+\renewenvironment{align*}{$\aligned}{\endaligned$}
+\begin{document}
+\begin{align*}
+    &B^+_n = \sum_{k=0}^n\sum_{m=0}^k (-1)^m \binom{k}{m}\frac{(m+1)^n}{k+1}\\[1ex]
+    &B^-_n = \sum_{k=0}^n\sum_{m=0}^k (-1)^m \binom{k}{m}\frac{m^n}{k+1}
+\end{align*}
+\end{document}

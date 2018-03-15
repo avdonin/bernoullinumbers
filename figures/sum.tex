@@ -1,0 +1,10 @@
+\documentclass{standalone}
+\usepackage{amsmath}
+\newcommand{\fallingfactorial}[1]{%
+  ^{\underline{#1}}%
+}
+\begin{document}
+$\displaystyle
+    \sum_{n=1}^{N} n^{q} = \frac{N^{q+1}}{q+1}+\frac{N^q}{2}+\sum_{k=2}^{q} \frac{B_k}{k!}q\fallingfactorial{k-1}N^{q+1-k}
+$
+\end{document}

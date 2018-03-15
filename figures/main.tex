@@ -1,0 +1,15 @@
+\documentclass{standalone}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\newcommand{\diff}{\mathop{}\!d}
+\renewenvironment{gather*}{$\gathered}{\endgathered$}
+\begin{document}
+\begin{gather*}
+    K = \frac{2n!}{(2\pi)^n}\\[3ex]
+    d = \prod_{p-1|n} p\\[3ex]
+    N = \big[(Kd)^{\frac{1}{n-1}}\big]\\[3ex]
+    z = \prod_{p \leqslant N} \frac{1}{1-\frac{1}{p^n}}\\[3ex]
+    a = (-1)^{\frac{n}{2}+1}\big[dKz\big]\\[3ex]
+    B_n = \frac{a}{d}
+\end{gather*}
+\end{document}
