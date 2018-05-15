@@ -1,4 +1,4 @@
-# The implementation of the McGown algorithm for computing Bernoulli numbers quickly and highly accurate.
+# The implementation of the zeta-function algorithm for computing Bernoulli numbers quickly and highly accurate.
 #
 # Computational details:
 #   1. Sieve of Eratosthenes for the prime numbers.

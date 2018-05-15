@@ -1,14 +1,21 @@
 # Bernoulli numbers
-An efficient implementation of the McGown algorithm for accurate computing Bernoulli numbers [1]. The code was written in Python using math and decimal libs.
+An efficient implementation of the zeta-function algorithm for accurate 
+computing Bernoulli numbers [1]. The code was written in Python using math and 
+decimallibs.
 
 ## Introduction
-The Bernoulli numbers are a sequence of rational numbers which is widely used in mathematics. The explicit definition is given by Louis Saalschütz in 1893 and could be written as
+The Bernoulli numbers are a sequence of rational numbers which are widely used 
+in mathematics. The explicit definition is given by Louis Saalschütz in 1893 and
+ could be written as
 
 <p align="center">
 <img src ="./figures/def.png" width="33%" height="33%"/></div>
 </p>
 
-But the explicit computation of the large Bernoulli numbers is irrelevant and could be inaccurate. The more accurate way is define the numerator and the denominator of the accurate fraction. Thereby the program prints the numerator, the denominator and the decimal fraction after n for the n-th Bernoulli number.
+But the explicit computation of the large Bernoulli numbers is irrelevant and co
+uld be inaccurate. The more accurate way is to define the numerator and the 
+denominator of the accurate fraction. Thereby the program prints the numerator, 
+the denominator and the decimal fraction after n for the n-th Bernoulli number.
 
 ## Algorithm
 The general procedure for n > 1.
@@ -18,7 +25,8 @@ The general procedure for n > 1.
 where p is primes up to n. And (p-1)|n means (p-1) divides n.
 
 ## Applications
-One of the most important application of the Bernoulli numbers is in numerical computation of integrals by Euler–Maclaurin formula
+One of the most important application of the Bernoulli numbers is in the 
+numerical computation of integrals by the Euler–Maclaurin formula
 
 <p align="center">
 <img src ="./figures/emf.png" height="70"/></div>
@@ -26,7 +34,8 @@ One of the most important application of the Bernoulli numbers is in numerical c
 
 Here the first Bernoulli number is +1/2.
 
-Another essential application could be found in computation of Faulhaber's formula
+Another essential application could be found in the computation of 
+Faulhaber's formula
 
 <p align="center">
 <img src ="./figures/f.png" height="60"/></div>
